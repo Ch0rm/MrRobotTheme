@@ -6083,11 +6083,6 @@ body,
   border: none;
 }
 
-/*
- *
- *  USER SETTINGS GAME OVERLAY
- *
- */
 .wrapper_e03935 {
   border-radius: var(--card-radius);
   border-color: hsla(var(--accent-hsl), var(--accent-opacity));
@@ -6100,11 +6095,6 @@ body,
   border-color: hsla(var(--accent-hsl), var(--accent-opacity));
 }
 
-/*
- *
- *  USER SETTINGS KEYBINDS
- *
- */
 .keybindInput__2636e {
   min-height: var(--input-height);
   height: var(--input-height);
@@ -6119,11 +6109,6 @@ body,
   outline: none !important;
 }
 
-/*
- *
- *  USER SETTINGS MY ACCOUNT
- *
- */
 .accountProfileCard__1fed1 {
   background-color: var(--card-color);
   border-radius: var(--card-radius);
@@ -6165,11 +6150,6 @@ body,
   background-color: var(--background-modifier-hover);
 }
 
-/*
- *
- *  USER SETTINGS PARYT MODE
- *
- */
 .achievementContainer_f8824b {
   background-color: var(--card-color);
   border-radius: var(--card-radius);
@@ -6249,11 +6229,6 @@ body,
   background-color: hsl(var(--accent-hsl)) !important;
 }
 
-/*
- *
- *  USER SETTINGS PROFILE
- *
- */
 .upsellOverlayContainer__0f7dc {
   border-radius: var(--card-radius);
   overflow: hidden;
@@ -6292,11 +6267,6 @@ body,
   padding-inline: 16px;
 }
 
-/*
- *
- *  USER SETTINGS SERVER BOOST
- *
- */
 .gradient__8e08c {
   margin-block-end: 40px;
   border-radius: var(--card-radius);
@@ -6334,11 +6304,6 @@ body,
   border: none;
 }
 
-/*
- *
- *  USER SETTINGS VOICE & VIDEO
- *
- */
 .cameraWrapper_d41d5f {
   background: var(--card-color);
   border-radius: var(--card-radius);
@@ -6346,11 +6311,6 @@ body,
   border-width: 2px;
 }
 
-/*
- *
- *  SETTINGS CONTENT AREA
- *
- */
 .contentRegion__23e6b {
   background-color: var(--main-content-color);
 }
@@ -6367,7 +6327,6 @@ body,
   background-color: transparent;
 }
 
-/* SETTINGS CONTENT AREA V2 */
 .layer__960e4 {
   background-color: transparent;
 }
@@ -6385,11 +6344,6 @@ body,
   backdrop-filter: blur(var(--app-blur));
 }
 
-/*
- *
- *  SETTINGS SIDEBAR
- *
- */
 .standardSidebarView__23e6b {
   margin-block-start: var(--custom-app-top-bar-height);
   background-color: transparent;
@@ -6414,16 +6368,10 @@ body,
   display: none;
 }
 
-/* SETTINGS SIDEBAR V2 */
 .fixedContent__409aa:after {
   display: none;
 }
 
-/*
- *
- *	DISCORD SHOP HOME VIEW
- *
- */
 .shop__6db1d {
   background-color: var(--main-content-color);
 }
@@ -6447,11 +6395,6 @@ body,
   box-shadow: var(--card-header-shadow);
 }
 
-/*
- *
- *  VISUAL REFRESH
- *
- */
 .visual-refresh.refresh-fast-follow-guild-bg .bg__960e4 {
   background: transparent;
 }
@@ -6475,4 +6418,24 @@ body,
   border-radius: var(--space-16);
 }
 
-/*# sourceMappingURL=main.css.map */
+.buttonSection__1405b, 
+.buttonSection__1405b .colorable_f1ceac,
+.buttonSection__1405b .button__f1ceac,
+.buttonSection__1405b .container_f1ceac,
+.buttonSection__1405b .contextMenuNub_f1ceac {
+    border-radius: 15px !important;
+}
+
+.attachedCaretButtonContainer_f1ceac {
+    border-radius: 15px !important;
+    overflow: hidden;
+    display: flex !important;
+}
+
+.colorable_f1ceac.disconnect_f1ceac {
+    border-radius: 15px !important;
+}
+
+.buttonSection__1405b .colorable_f1ceac::after {
+    border-radius: 15px !important;
+}
