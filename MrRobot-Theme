@@ -1,5 +1,5 @@
 :root {
-  --app-bg: url(https://i.ibb.co/TBHsCGGv/image.jpg);
+  --app-bg: url('https://i.ibb.co/TBHsCGGv/image.jpg');
   --app-blur: 8px;
   --app-margin: 20px;
   --app-radius: 12px;
