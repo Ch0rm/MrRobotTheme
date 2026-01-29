@@ -1,5 +1,5 @@
 :root {
-  --app-bg: url(https://i.ibb.co/5h7854Wy/bgmVeyt.jpg);
+  --app-bg: url(https://i.ibb.co/TBHsCGGv/image.jpg);
   --app-blur: 8px;
   --app-margin: 20px;
   --app-radius: 12px;
@@ -10,8 +10,8 @@
   --main-content-color: rgba(var(--main-rgb), var(--main-content-opacity));
   --sidebar-color: rgba(var(--main-rgb), var(--sidebar-opacity));
 
-  --accent-hue: 190;         /* Изменено с 156 на 190 (Голубой) */
-  --accent-saturation: 85%;  /* Чуть сочнее */
+  --accent-hue: 190;
+  --accent-saturation: 85%;
   --accent-lightness: 50%;
   --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
   --accent-opacity: 1;
@@ -21,7 +21,7 @@
   --alert-saturation: 80%;
   --alert-lightness: 60%;
   
-  --message-color: hsl(0,0%,0%,0.3); /* Более прозрачные сообщения */
+  --message-color: hsl(0,0%,0%,0.3);
   --message-color-hover: hsl(0,0%,0%,0.45);
   --message-radius: 10px;
   
@@ -29,7 +29,6 @@
   --textarea-alpha: 0.07;
   --textarea-radius: 15px;
   
-  /* КАРТОЧКИ И ВСПЛЫВАЮЩИЕ ОКНА */
   --card-color: hsl(0,0%,100%,0.05);
   --popout-color: hsl(0,0%,0%,0.7);
   --popout-blur: 12px;
